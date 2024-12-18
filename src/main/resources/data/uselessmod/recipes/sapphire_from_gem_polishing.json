@@ -1,0 +1,12 @@
+{
+  "type": "uselessmod:gem_polishing",
+  "ingredients": [
+    {
+      "item": "uselessmod:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "uselessmod:sapphire"
+  }
+}

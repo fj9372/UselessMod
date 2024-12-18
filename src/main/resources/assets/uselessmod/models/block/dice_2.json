@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "uselessmod:block/dice_2",
+    "down": "uselessmod:block/dice_5",
+    "north": "uselessmod:block/dice_6",
+    "east": "uselessmod:block/dice_3",
+    "south": "uselessmod:block/dice_1",
+    "west": "uselessmod:block/dice_4",
+    "particle": "uselessmod:block/dice_2"
+  }
+}

@@ -1,0 +1,11 @@
+// 1.20.1	2024-12-05T17:57:13.5732096	Tags for minecraft:block mod id uselessmod
+d7559be31b523f593c3b682bafe1a872eda3cbe2 data/minecraft/tags/blocks/fences.json
+318c6c3ff6416110b010e9dad5d0f831c4237cfb data/minecraft/tags/blocks/fence_gates.json
+57590aabb4a9ce0ff7e64d906bcafebcadd5e978 data/minecraft/tags/blocks/logs_that_burn.json
+fa9ed17bc8afe27c9c83ff476cef84335cff7411 data/minecraft/tags/blocks/mineable/pickaxe.json
+aad8d42183ab247af6ebf090e06b082c40514552 data/minecraft/tags/blocks/needs_diamond_tool.json
+bb482f40d6164d9edac51e9f9b9c66d9589a8485 data/minecraft/tags/blocks/needs_iron_tool.json
+aaa9f45807060d9e2fe6050b0453d9840473374c data/minecraft/tags/blocks/planks.json
+609fcc0247cac434a008fd9ba37521910ddf1ad1 data/minecraft/tags/blocks/walls.json
+5caed5f501fdfa435d2aaa4b60cb817e75adbd34 data/uselessmod/tags/blocks/metal_detector_valuables.json
+c012f166016bb1f92fababdc9ac5ead8c237f6ed data/uselessmod/tags/blocks/needs_sapphire_tool.json

@@ -1,0 +1,46 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.uselessmod.metal_detector_found_ore",
+    "sounds": [
+      "uselessmod:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.uselessmod.sound_block_break",
+    "sounds": [
+      "uselessmod:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.uselessmod.sound_block_step",
+    "sounds": [
+      "uselessmod:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.uselessmod.sound_block_place",
+    "sounds": [
+      "uselessmod:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.uselessmod.sound_block_hit",
+    "sounds": [
+      "uselessmod:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.uselessmod.sound_block_fall",
+    "sounds": [
+      "uselessmod:sound_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "uselessmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

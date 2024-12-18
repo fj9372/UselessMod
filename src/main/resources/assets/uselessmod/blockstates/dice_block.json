@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "uselessmod:block/dice_1"
+    },
+    "number=north": {
+      "model": "uselessmod:block/dice_2"
+    },
+    "number=east": {
+      "model": "uselessmod:block/dice_3"
+    },
+    "number=south": {
+      "model": "uselessmod:block/dice_5"
+    },
+    "number=west": {
+      "model": "uselessmod:block/dice_4"
+    },
+    "number=down": {
+      "model": "uselessmod:block/dice_6"
+    }
+  }
+}

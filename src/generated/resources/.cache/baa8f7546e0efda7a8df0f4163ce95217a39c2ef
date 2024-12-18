@@ -1,0 +1,4 @@
+// 1.20.1	2024-12-05T17:57:13.5815682	Global Loot Modifiers : uselessmod
+51ea32b1fc5a885ff4e48eea45e8f0b57559863c data/forge/loot_modifiers/global_loot_modifiers.json
+7aae34bd78449578229a73cab3deef337d5b5bd3 data/uselessmod/loot_modifiers/metal_detector_from_sus_sand.json
+8f6954611148ed7a593fdd04a9168cb1ce0789e2 data/uselessmod/loot_modifiers/pine_cone_from_grass.json
