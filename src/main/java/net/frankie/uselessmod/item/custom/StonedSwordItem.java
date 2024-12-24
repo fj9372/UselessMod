@@ -49,11 +49,7 @@ public class StonedSwordItem extends SwordItem {
             consumeStacksOfStone(player);
         }
 
-        pStack.hurtAndBreak(1, pAttacker, (entity) -> {
-            entity.broadcastBreakEvent(EquipmentSlot.MAINHAND);
-        });
-
-        return true;
+        return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 
     private int countFullStacksOfStone(Player player) {

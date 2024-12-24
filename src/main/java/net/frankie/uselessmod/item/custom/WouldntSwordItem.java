@@ -37,6 +37,7 @@ public class WouldntSwordItem extends SwordItem {
             zombie.setDropChance(EquipmentSlot.CHEST, 100.0F);
             zombie.setDropChance(EquipmentSlot.LEGS, 100.0F);
             zombie.setDropChance(EquipmentSlot.HEAD, 100.0F);
+            return false;
         }
         else if(pAttacker instanceof Player player){
             pAttacker.sendSystemMessage(Component.literal("Your sword attacked you and has ran away after giving the enemy a buff."));
@@ -44,10 +45,10 @@ public class WouldntSwordItem extends SwordItem {
             player.hurt(player.damageSources().generic(), 5.0f);
             pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2000, 1, false,false, true));
             pTarget.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2000, 1, false,false, true));
+            return false;
         }
         else {
-            super.hurtEnemy(pStack, pTarget, pAttacker);
+            return super.hurtEnemy(pStack, pTarget, pAttacker);
         }
-        return true;
     }
 }
