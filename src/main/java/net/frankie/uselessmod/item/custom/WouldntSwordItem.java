@@ -31,20 +31,22 @@ public class WouldntSwordItem extends SwordItem {
             zombie.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(Items.WOODEN_SWORD));
             zombie.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2000, 10, false,false, true));
             zombie.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2000, 5, false,false, true));
+            zombie.addEffect(new MobEffectInstance(MobEffects.JUMP, 2000, 4, false,false, true));
             zombie.addEffect(new MobEffectInstance(MobEffects.WITHER, 2000, 1, false,false, true));
             zombie.setDropChance(EquipmentSlot.MAINHAND, 0.0F);
-            zombie.setDropChance(EquipmentSlot.FEET, 100.0F);
-            zombie.setDropChance(EquipmentSlot.CHEST, 100.0F);
-            zombie.setDropChance(EquipmentSlot.LEGS, 100.0F);
-            zombie.setDropChance(EquipmentSlot.HEAD, 100.0F);
+            zombie.setDropChance(EquipmentSlot.FEET, 80.0F);
+            zombie.setDropChance(EquipmentSlot.CHEST, 80.0F);
+            zombie.setDropChance(EquipmentSlot.LEGS, 80.0F);
+            zombie.setDropChance(EquipmentSlot.HEAD, 80.0F);
             return false;
         }
         else if(pAttacker instanceof Player player){
             pAttacker.sendSystemMessage(Component.literal("Your sword attacked you and has ran away after giving the enemy a buff."));
             player.setItemInHand(InteractionHand.MAIN_HAND, ItemStack.EMPTY);
             player.hurt(player.damageSources().generic(), 5.0f);
-            pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2000, 1, false,false, true));
-            pTarget.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2000, 1, false,false, true));
+            pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2000, 2, false,false, true));
+            pTarget.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2000, 2, false,false, true));
+            pTarget.addEffect(new MobEffectInstance(MobEffects.JUMP, 2000, 3, false,false, true));
             return false;
         }
         else {

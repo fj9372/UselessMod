@@ -81,6 +81,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.WOULDNT_SWORD.get());
                         pOutput.accept(ModItems.STONED_SWORD.get());
                         pOutput.accept(ModItems.IRUN_SWORD.get());
+                        pOutput.accept(ModItems.GOLDEN_FAKE_SWORD.get());
+                        pOutput.accept(ModItems.DIE_MEND_SWORD.get());
 
                     })
                     .build());

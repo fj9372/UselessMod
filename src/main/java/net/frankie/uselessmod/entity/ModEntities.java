@@ -1,10 +1,7 @@
 package net.frankie.uselessmod.entity;
 
 import net.frankie.uselessmod.UselessMod;
-import net.frankie.uselessmod.entity.custom.DiceProjectileEntity;
-import net.frankie.uselessmod.entity.custom.ModBoatEntity;
-import net.frankie.uselessmod.entity.custom.ModChestBoatEntity;
-import net.frankie.uselessmod.entity.custom.RhinoEntity;
+import net.frankie.uselessmod.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,5 +32,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<DiceProjectileEntity>> DICE_PROJECTILE =
             ENTITY_TYPES.register("dice_projectile", () -> EntityType.Builder.<DiceProjectileEntity>of(DiceProjectileEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).build("dice_projectile"));
+
+    public static final RegistryObject<EntityType<GoldenSwordProjectileEntity>> GOLDEN_SWORD_PROJECTILE =
+            ENTITY_TYPES.register("golden_sword_projectile", () -> EntityType.Builder.<GoldenSwordProjectileEntity>of(GoldenSwordProjectileEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).build("golden_sword_projectile"));
 
 }

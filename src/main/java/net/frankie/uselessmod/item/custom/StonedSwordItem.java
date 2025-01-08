@@ -34,7 +34,7 @@ public class StonedSwordItem extends SwordItem {
         if (!level.isClientSide()) {
             if(player.getMainHandItem().getItem() == this){
                 player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 3, false, false, true));
-                player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 100, 1, false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 200, 1, false, false, true));
             }
         }
         super.onInventoryTick(stack, level, player, slotIndex, isSelected);

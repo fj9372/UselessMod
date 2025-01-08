@@ -97,6 +97,12 @@ public class ModItems {
     public static final RegistryObject<Item> IRUN_SWORD = ITEMS.register("irun_sword",
             () -> new iRunSwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties()));
 
+    public static final RegistryObject<Item> GOLDEN_FAKE_SWORD = ITEMS.register("golden_fake_sword",
+            () -> new GoldenFakeSwordItem(Tiers.GOLD, 3, -2.4F, new Item.Properties()));
+
+    public static final RegistryObject<Item> DIE_MEND_SWORD = ITEMS.register("die_mend_sword",
+            () -> new DieMendSwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

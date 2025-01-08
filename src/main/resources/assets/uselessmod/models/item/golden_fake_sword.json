@@ -1,0 +1,32 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "uselessmod:item/golden_fake_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.2
+      },
+      "model": "uselessmod:item/golden_fake_sword_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.4
+      },
+      "model": "uselessmod:item/golden_fake_sword_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.6
+      },
+      "model": "uselessmod:item/golden_fake_sword_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.8
+      },
+      "model": "uselessmod:item/golden_fake_sword_5"
+    }
+  ]
+}

@@ -142,6 +142,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.WOULDNT_SWORD);
         handheldItem(ModItems.STONED_SWORD);
         handheldItem(ModItems.IRUN_SWORD);
+        handheldItem(ModItems.DIE_MEND_SWORD);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
