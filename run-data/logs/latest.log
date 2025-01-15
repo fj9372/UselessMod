@@ -1,37 +1,37 @@
-[26Dec2024 18:17:35.782] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Frankie Jiang\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, uselessmod, --all, --output, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
-[26Dec2024 18:17:35.789] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8.1 by BellSoft; OS Windows 11 arch amd64 version 10.0
-[26Dec2024 18:17:35.903] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[26Dec2024 18:17:35.942] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Frankie%20Jiang/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[26Dec2024 18:17:36.186] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Dec2024 18:17:36.188] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Dec2024 18:17:36.191] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Dec2024 18:17:36.194] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[26Dec2024 18:17:36.253] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Dec2024 18:17:37.383] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Frankie Jiang\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, uselessmod, --all, --output, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
-[26Dec2024 18:17:37.759] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [uselessmod]
-[26Dec2024 18:17:41.311] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[26Dec2024 18:17:41.312] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[26Dec2024 18:17:41.557] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[26Dec2024 18:17:41.563] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.859 ms
-[26Dec2024 18:17:41.890] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Frankie%20Jiang/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[26Dec2024 18:17:41.890] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Frankie%20Jiang/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[26Dec2024 18:17:42.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[26Dec2024 18:17:42.149] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 41 ms
-[26Dec2024 18:17:42.150] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[26Dec2024 18:17:42.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 43 ms
-[26Dec2024 18:17:42.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: uselessmod
-[26Dec2024 18:17:42.328] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: uselessmod finished after 134 ms
-[26Dec2024 18:17:42.328] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: uselessmod
-[26Dec2024 18:17:42.352] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: uselessmod finished after 24 ms
-[26Dec2024 18:17:42.352] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id uselessmod
-[26Dec2024 18:17:42.372] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id uselessmod finished after 19 ms
-[26Dec2024 18:17:42.372] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id uselessmod
-[26Dec2024 18:17:42.373] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id uselessmod finished after 1 ms
-[26Dec2024 18:17:42.374] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : uselessmod
-[26Dec2024 18:17:42.378] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : uselessmod finished after 5 ms
-[26Dec2024 18:17:42.378] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id uselessmod
-[26Dec2024 18:17:42.379] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id uselessmod finished after 0 ms
-[26Dec2024 18:17:42.380] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[26Dec2024 18:17:42.392] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 12 ms
-[26Dec2024 18:17:42.392] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 285 ms
-[26Dec2024 18:17:42.415] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 252, old count: 253, new count: 253, removed stale: 0, written: 0
+[07Jan2025 19:24:16.121] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Frankie Jiang\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, uselessmod, --all, --output, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
+[07Jan2025 19:24:16.125] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8.1 by BellSoft; OS Windows 11 arch amd64 version 10.0
+[07Jan2025 19:24:16.240] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[07Jan2025 19:24:16.278] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Frankie%20Jiang/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[07Jan2025 19:24:16.515] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Jan2025 19:24:16.518] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Jan2025 19:24:16.522] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Jan2025 19:24:16.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Frankie Jiang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[07Jan2025 19:24:16.587] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Jan2025 19:24:17.838] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Frankie Jiang\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, uselessmod, --all, --output, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\Frankie Jiang\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
+[07Jan2025 19:24:18.251] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [uselessmod]
+[07Jan2025 19:24:21.344] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[07Jan2025 19:24:21.345] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[07Jan2025 19:24:21.560] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[07Jan2025 19:24:21.563] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.480 ms
+[07Jan2025 19:24:21.885] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Frankie%20Jiang/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[07Jan2025 19:24:21.886] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Frankie%20Jiang/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[07Jan2025 19:24:22.153] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[07Jan2025 19:24:22.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 59 ms
+[07Jan2025 19:24:22.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[07Jan2025 19:24:22.267] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 53 ms
+[07Jan2025 19:24:22.267] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: uselessmod
+[07Jan2025 19:24:22.399] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: uselessmod finished after 131 ms
+[07Jan2025 19:24:22.399] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: uselessmod
+[07Jan2025 19:24:22.423] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: uselessmod finished after 24 ms
+[07Jan2025 19:24:22.423] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id uselessmod
+[07Jan2025 19:24:22.439] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id uselessmod finished after 15 ms
+[07Jan2025 19:24:22.440] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id uselessmod
+[07Jan2025 19:24:22.441] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id uselessmod finished after 1 ms
+[07Jan2025 19:24:22.441] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : uselessmod
+[07Jan2025 19:24:22.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : uselessmod finished after 4 ms
+[07Jan2025 19:24:22.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id uselessmod
+[07Jan2025 19:24:22.447] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id uselessmod finished after 0 ms
+[07Jan2025 19:24:22.447] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[07Jan2025 19:24:22.458] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 10 ms
+[07Jan2025 19:24:22.458] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 305 ms
+[07Jan2025 19:24:22.482] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 253, old count: 253, new count: 254, removed stale: 0, written: 1
