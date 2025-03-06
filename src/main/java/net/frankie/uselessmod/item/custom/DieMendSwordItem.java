@@ -30,6 +30,7 @@ public class DieMendSwordItem extends SwordItem {
         if (!level.isClientSide()) {
             if(player.getMainHandItem().getItem() == this && this.getDamage(stack) > 0){
                 player.hurt(player.damageSources().playerAttack(player), 2);
+                this.setDamage(stack, this.getDamage(stack) - 5);
             }
         }
         super.onInventoryTick(stack, level, player, slotIndex, selectedIndex);
@@ -38,9 +39,14 @@ public class DieMendSwordItem extends SwordItem {
     @Override
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         if (!player.level().isClientSide) {
+            entity.hurt(player.damageSources().playerAttack(player), 2);
             player.sendSystemMessage(Component.literal("Durability:" + (this.getMaxDamage(stack) - this.getDamage(stack))));
             player.sendSystemMessage(Component.literal("Strength:" + player.getAttackStrengthScale(0.0F)));
             player.sendSystemMessage(Component.literal("??:" + chargeLevel));
+            entity.hurt(player.damageSources().playerAttack(player), ((float) Math.pow(2, chargeLevel)));
+            stack.hurtAndBreak(156 * chargeLevel, player, (target) -> {
+                target.broadcastBreakEvent(InteractionHand.MAIN_HAND);
+            });
             chargeLevel = 0;
         }
         return super.onLeftClickEntity(stack, player, entity);
@@ -48,13 +54,11 @@ public class DieMendSwordItem extends SwordItem {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
-        if(!pLevel.isClientSide){
-            chargeLevel += 1;
-            pLevel.playSeededSound(null, pPlayer.getX(), pPlayer.getY(), pPlayer.getZ(),
-                    SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.BLOCKS, 1f, 1f, 0);
+        if (!pLevel.isClientSide) {
+            pPlayer.startUsingItem(pUsedHand);
+            return InteractionResultHolder.consume(pPlayer.getItemInHand(pUsedHand));
         }
-        pPlayer.startUsingItem(pUsedHand);
-        return InteractionResultHolder.consume(pPlayer.getItemInHand(pUsedHand));
+        return InteractionResultHolder.fail(pPlayer.getItemInHand(pUsedHand));
     }
 
     @Override
@@ -67,9 +71,14 @@ public class DieMendSwordItem extends SwordItem {
 
     @Override
     public void onUseTick(Level pLevel, LivingEntity pLivingEntity, ItemStack pStack, int pRemainingUseDuration) {
-        if (pLivingEntity instanceof Player player) {
-            pLevel.playSeededSound(null, player.getX(), player.getY(), player.getZ(),
-                    SoundEvents.ARROW_SHOOT, SoundSource.BLOCKS, 1f, 1f, 0);
+        if (pLivingEntity instanceof Player player && !pLevel.isClientSide) {
+            if(pRemainingUseDuration % 20 == 0 && chargeLevel < 5){
+                pLevel.playSeededSound(null, player.getX(), player.getY(), player.getZ(),
+                        SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.BLOCKS, 1f, 1f, 0);
+                chargeLevel += 1;
+            }
+            pLivingEntity.sendSystemMessage(Component.literal("Remaining:" + pRemainingUseDuration));
+            pLivingEntity.sendSystemMessage(Component.literal("Power:" + chargeLevel));
         }
     }
 
